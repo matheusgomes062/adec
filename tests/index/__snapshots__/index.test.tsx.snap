@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders 1`] = `
+<div>
+  <header
+    class="flex justify-between items-center mb-4"
+  >
+    <h1
+      class="text-3xl font-bold"
+    >
+      Adec em Cristo
+    </h1>
+    <div
+      class="flex items-center justify-center mt-3"
+    >
+      <button
+        aria-label="Toggle dark mode"
+        class="px-2 py-1.5 rounded-sm bg-zinc-900 dark:bg-zinc-100"
+        type="button"
+      >
+        <span
+          class="inline-block text-sm dark:hidden text-zinc-100"
+        >
+          Switch to Dark
+        </span>
+        <span
+          class="hidden text-sm dark:inline-block text-zinc-800"
+        >
+          Switch to Light
+        </span>
+      </button>
+    </div>
+  </header>
+  <main />
+  <footer />
+</div>
+`;
