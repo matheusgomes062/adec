@@ -33,7 +33,7 @@ export const ColorSchemeToggleButton = () => {
           type="checkbox"
           value=""
           className="sr-only peer"
-          defaultChecked={theme === 'dark'}
+          defaultChecked={theme === 'dark' ? true : false}
           onClick={() => {
             setThemeFunction(theme === 'dark' ? 'light' : 'dark')
           }}
