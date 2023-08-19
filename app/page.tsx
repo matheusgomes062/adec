@@ -10,7 +10,7 @@ export default function Home() {
           <p className="mr-3 font-medium">{textToCopy}</p>
           <CopyButton textToCopy={textToCopy} />
         </div>
-        <p className="pt-5 font-medium">
+        <p className="whitespace-normal pt-5 font-medium text-center">
           Copie a chave pix e cole no aplicativo do seu banco.
         </p>
       </div>
