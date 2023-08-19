@@ -5,7 +5,7 @@ import Image from 'next/image'
 const HeaderNav = () => {
   return (
     <header className="w-full text-gray-700 bg-white border-t border-gray-100 shadow-sm body-font px-2">
-      <nav className="border-gray-200 mb-10 w-full max-w-3xl grid-cols-2 mx-auto">
+      <nav className="border-gray-200 mb-10 w-full max-w-screen-xl grid-cols-2 mx-auto">
         <div className="mx-2 flex flex-wrap items-center justify-between">
           <a href="#" className="flex">
             <Image
