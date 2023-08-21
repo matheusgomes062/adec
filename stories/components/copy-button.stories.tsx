@@ -16,18 +16,3 @@ export const Default = Template.bind({})
 Default.args = {
   textToCopy: 'Hello, Storybook!',
 }
-
-export const Copied = Template.bind({})
-Copied.args = {
-  textToCopy: 'Hello, Storybook!',
-}
-
-export const CustomText = Template.bind({})
-CustomText.args = {
-  textToCopy: 'Copy this custom text!',
-}
-
-export const CustomStyle = Template.bind({})
-CustomStyle.args = {
-  textToCopy: 'Styled CopyButton',
-}
