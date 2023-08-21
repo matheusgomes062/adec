@@ -1,12 +1,18 @@
 {
-    "plugins": ["@typescript-eslint"],
+    "plugins": [
+        "@typescript-eslint"
+    ],
     "extends": [
         "next/core-web-vitals",
         "plugin:@typescript-eslint/recommended",
-        "prettier"
+        "prettier",
+        "plugin:storybook/recommended"
     ],
     "rules": {
-        "indent": ["error", 2],
+        "indent": [
+            "error",
+            2
+        ],
         "prefer-const": "error",
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-explicit-any": "error"
