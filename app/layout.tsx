@@ -9,7 +9,7 @@ import Footer from './components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Adec - Pix',
+  title: 'Adec',
 }
 
 export default async function RootLayout({
