@@ -11,11 +11,7 @@ const HeaderNav = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="#" className="flex items-center mb-4 sm:mb-0">
             <Image
-              src={
-                theme === 'dark'
-                  ? '/adec_logo_white.svg'
-                  : '/adec_logo_color.svg'
-              }
+              src="/adec_logo_color.svg"
               alt="Adec"
               width={100}
               height={100}
