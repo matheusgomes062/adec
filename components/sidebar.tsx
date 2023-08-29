@@ -4,6 +4,7 @@ import {
   CurrencyDollarIcon,
 } from '@heroicons/react/24/solid'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
+import Link from 'next/link'
 import React, { useState } from 'react'
 
 export default function Sidebar() {
@@ -30,17 +31,35 @@ export default function Sidebar() {
         >
           <ul className="mt-20">
             {/* <h4 className="mb-4 font-semibold">Links úteis</h4> */}
-            <li className="flex items-center mb-6 pl-3">
-              <ClockIcon className="w-5 h-5 text-gray-600 mr-6" />
-              Horário dos cultos
+            <li>
+              <Link
+                href="/"
+                className="flex items-center mb-6 pl-3"
+                onClick={() => setShowSidebar(!showSidebar)}
+              >
+                <ClockIcon className="w-5 h-5 text-gray-600 mr-6" />
+                Horário dos cultos
+              </Link>
             </li>
-            <li className="flex items-center mb-6 pl-3">
-              <CurrencyDollarIcon className="w-5 h-5 text-gray-600 mr-6" />
-              Oferta
+            <li>
+              <Link
+                href="/pix"
+                className="flex items-center mb-6 pl-3"
+                onClick={() => setShowSidebar(!showSidebar)}
+              >
+                <CurrencyDollarIcon className="w-5 h-5 text-gray-600 mr-6" />
+                Oferta
+              </Link>
             </li>
-            <li className="flex items-center mb-6 pl-3">
-              <CalendarDaysIcon className="w-5 h-5 text-gray-600 mr-6" />
-              Cronograma da semana
+            <li>
+              <Link
+                href="/"
+                className="flex items-center mb-6 pl-3"
+                onClick={() => setShowSidebar(!showSidebar)}
+              >
+                <CalendarDaysIcon className="w-5 h-5 text-gray-600 mr-6" />
+                Cronograma da semana
+              </Link>
             </li>
           </ul>
         </div>
