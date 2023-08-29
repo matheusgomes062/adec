@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Agenda() {
   return (
     <>
-      <div className="max-h-screen max-w-screen bg-no-repeat bg-center">
+      <div className="max-h-screen max-w-screen flex justify-center">
         <Image
           src="/adec_agenda_week.jpeg"
           alt="Agenda"
