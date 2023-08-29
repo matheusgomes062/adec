@@ -1,9 +1,9 @@
 'use client'
 import Image from 'next/image'
-import { useTheme } from 'next-themes'
+// import { useTheme } from 'next-themes'
 
 const HeaderNav = () => {
-  const { theme } = useTheme()
+  // const { theme } = useTheme()
 
   return (
     <footer className="bottom-0 m-4">
